@@ -52,7 +52,7 @@ class ComplexParent extends React.Component<Props, State> {
     const { randomNumber, displayChild } = this.state;
     return (
       <section className="complex-parent">
-        <h2>Complex Parent</h2>
+        <h2>Timer Component</h2>
         {displayChild && <ComplexChild randomNumber={randomNumber} />}
         <button onClick={this.startTimer}>Start Timer</button>
         <button onClick={this.clearTimer}>Stop Timer</button>

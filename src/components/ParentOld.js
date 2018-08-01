@@ -11,20 +11,6 @@ class ParentOld extends React.Component<Props, State> {
   static displayName = 'ParentOld';
   state = {};
 
-  /**
-   * If you uncomment this out, React will get mad.
-   */
-
-  // getSnapshotBeforeUpdate(prevProps: Props, prevState: State) {
-  //   logMethods(
-  //     ParentOld.displayName,
-  //     'getSnapshotBeforeUpdate',
-  //     prevProps,
-  //     prevState
-  //   );
-  //   return 'some stuff';
-  // }
-
   componentWillMount() {
     logMethods(ParentOld.displayName, 'componentWillMount');
   }

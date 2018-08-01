@@ -14,7 +14,7 @@ class Child extends React.Component<Props, State> {
   };
 
   generateBoolean = () => {
-    return Math.random() > 0.5;
+    return Boolean(Math.round(Math.random()));
   };
 
   componentDidMount() {
@@ -56,7 +56,7 @@ class Child extends React.Component<Props, State> {
     return (
       <section className="child App-header">
         <div>The value of isClicked is {isClicked ? 'true' : 'false'}</div>
-        <h2>Child Component</h2>
+        <h2>Clicker Component</h2>
         <button onClick={this.switchClicked}>Change isClicked</button>
         <button onClick={this.setIsClickedFalse}>
           Set isClicked to <code>false</code>
