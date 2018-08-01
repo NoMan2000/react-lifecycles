@@ -17,20 +17,20 @@ class App extends Component {
   static displayName = 'MainApp';
   render() {
     return (
-      <React.StrictMode>
-        <main className="App">
-          <ErrorComponent>
-            <Parent>
-              <ParentOld>
-                <Child />
-              </ParentOld>
-            </Parent>
-            <ComplexParent />
-            <DemoApp runDebugger={true} throwError={throwError} />
-            <DemoAppNew />
-          </ErrorComponent>
-        </main>
-      </React.StrictMode>
+      // <React.StrictMode>
+      <main className="App">
+        <ErrorComponent>
+          <Parent>
+            <ParentOld>
+              <Child />
+            </ParentOld>
+          </Parent>
+          <ComplexParent />
+          <DemoApp runDebugger={true} throwError={throwError} />
+          <DemoAppNew />
+        </ErrorComponent>
+      </main>
+      // </React.StrictMode>
     );
   }
 }

@@ -77,7 +77,6 @@ class DemoApp extends React.Component<Props, State> {
     this.hasUpdated = true;
     this.willUpdate = false;
     if (snapshotResult) {
-      console.log('HI MOM');
       this.snapshotResult = snapshotResult;
     }
   }
