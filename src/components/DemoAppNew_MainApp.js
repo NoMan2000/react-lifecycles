@@ -104,7 +104,7 @@ class DemoApp extends React.Component<Props, State> {
     }
     this.interval = null;
   }
-
+  // VDOM virtual DOM.
   getSnapshotBeforeUpdate(prevProps: Props, prevState: State) {
     logMethods(
       DemoApp.displayName,

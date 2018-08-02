@@ -234,3 +234,6 @@ render () {
   } // else do normal stuff
 }
 ```
+
+- Ask pointed questions, make sure they're paying attention.
+- More applicable demo.

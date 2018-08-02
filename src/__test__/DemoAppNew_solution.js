@@ -14,7 +14,7 @@ type State = {
   propsChanged: boolean,
   snapshotResult: string
 };
-
+// Or in a imported function, or imported class.
 let demoProp = false;
 let propsChanged = false;
 let testProperty = '';

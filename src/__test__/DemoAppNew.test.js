@@ -1,6 +1,6 @@
 import React from 'react';
-// import DemoAppNew from './DemoAppNew';
-import DemoAppNew from './DemoAppNew_solution';
+import DemoAppNew from './DemoAppNew';
+// import DemoAppNew from './DemoAppNew_solution';
 import ErrorComponent from './../components/ErrorComponent';
 import { mount, shallow, render } from 'enzyme';
 const { DemoApp, demoProp, propsChanged, testProperty } = DemoAppNew;

@@ -1,6 +1,6 @@
 import React from 'react';
-// import DemoApp from './DemoAppOld';
-import DemoApp from './DemoAppOld_solution';
+import DemoApp from './DemoAppOld';
+// import DemoApp from './DemoAppOld_solution';
 import ErrorComponent from './../components/ErrorComponent';
 import { mount, shallow, render } from 'enzyme';
 

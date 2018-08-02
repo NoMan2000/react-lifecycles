@@ -66,7 +66,8 @@ class DemoApp extends React.Component<Props, State> {
   shouldComponentUpdate(nextProps: Props, nextState: State) {
     this.willUpdate =
       nextProps.demoProp !== this.props.demoProp ||
-      nextState.demoStateValue !== this.state.demoStateValue;
+      nextState.demoStateValue !== this.state.demoStateValue ||
+      nextState.mounted !== this.state.mounted;
     return this.willUpdate;
   }
 
